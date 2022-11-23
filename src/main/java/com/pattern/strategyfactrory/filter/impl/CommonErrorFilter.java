@@ -13,8 +13,10 @@ public class CommonErrorFilter implements ErrorFilter {
 
     @Override
     public Boolean doFilter() {
+        // test error
         boolean flag = true;
         if (flag) {
+            // 异常类型为ignore，被aop捕获
             throw IgnoreErrors.INSTANCE.common("example error").exception();
         }
         return true;
