@@ -1,4 +1,4 @@
-package com.pattern.strategyfactrory.robot.annotation;
+package com.pattern.strategyfactrory.biz.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Filter {
+public @interface BizFilter {
 
 }

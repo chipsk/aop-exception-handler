@@ -1,6 +1,6 @@
 package com.pattern.strategyfactrory.filter;
 
-import com.pattern.strategyfactrory.filter.impl.CommonErrorFilter;
+import com.pattern.strategyfactrory.filter.impl.DefaultErrorFilter;
 import com.pattern.strategyfactrory.service.ErrorService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +40,7 @@ public class ErrorFilterTest {
     @Test
     public void testFilter() {
         //filter
-        ErrorFilter filter = new CommonErrorFilter();
+        ErrorFilter filter = new DefaultErrorFilter();
         Boolean ret = filter.doFilter();
         System.out.println(ret);
     }

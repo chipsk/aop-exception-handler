@@ -1,15 +1,15 @@
 package com.pattern.strategyfactrory.filter.impl;
 
-import com.pattern.strategyfactrory.robot.annotation.Filter;
+import com.pattern.strategyfactrory.biz.annotation.BizFilter;
 import com.pattern.strategyfactrory.error.IgnoreErrors;
 import com.pattern.strategyfactrory.filter.ErrorFilter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-@Filter
+@BizFilter
 @Component
 @Slf4j
-public class CommonErrorFilter implements ErrorFilter {
+public class DefaultErrorFilter implements ErrorFilter {
 
     @Override
     public Boolean doFilter() {
