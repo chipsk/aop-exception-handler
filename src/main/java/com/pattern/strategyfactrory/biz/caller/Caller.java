@@ -4,7 +4,7 @@ import com.pattern.strategyfactrory.biz.context.TaskCallContext;
 
 public interface Caller {
 
-    boolean doCall(TaskCallContext ctx);
+    Boolean doCall(TaskCallContext ctx);
 
-    boolean onCallFail(TaskCallContext ctx);
+    Boolean onCallFail(TaskCallContext ctx);
 }

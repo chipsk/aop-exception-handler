@@ -16,7 +16,7 @@ public abstract class AbstractConstructor implements Constructor {
 
 
     @Override
-    public boolean constructor(TaskCallContext ctx) {
+    public Boolean constructor(TaskCallContext ctx) {
 
         // build context
 

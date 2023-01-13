@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class GroupCaller implements Caller {
 
     @Override
-    public boolean doCall(TaskCallContext ctx) {
+    public Boolean doCall(TaskCallContext ctx) {
 
         // do call
 
@@ -17,7 +17,7 @@ public class GroupCaller implements Caller {
     }
 
     @Override
-    public boolean onCallFail(TaskCallContext ctx) {
+    public Boolean onCallFail(TaskCallContext ctx) {
         return false;
     }
 }

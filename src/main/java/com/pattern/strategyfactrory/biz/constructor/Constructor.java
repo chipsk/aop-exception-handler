@@ -4,6 +4,6 @@ import com.pattern.strategyfactrory.biz.context.TaskCallContext;
 
 public interface Constructor {
 
-    boolean constructor(TaskCallContext ctx);
+    Boolean constructor(TaskCallContext ctx);
 
 }
