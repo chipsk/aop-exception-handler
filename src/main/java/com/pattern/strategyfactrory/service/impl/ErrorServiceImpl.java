@@ -1,7 +1,7 @@
 package com.pattern.strategyfactrory.service.impl;
 
 import com.pattern.strategyfactrory.error.base.ErrorException;
-import com.pattern.strategyfactrory.req.ErrorRequest;
+import com.pattern.strategyfactrory.model.req.ErrorRequest;
 import com.pattern.strategyfactrory.service.ErrorService;
 import com.pattern.strategyfactrory.strategy.AbstractHandler;
 import com.pattern.strategyfactrory.strategy.HandlerContext;

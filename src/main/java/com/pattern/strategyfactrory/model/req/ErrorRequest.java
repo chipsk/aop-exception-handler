@@ -1,4 +1,4 @@
-package com.pattern.strategyfactrory.req;
+package com.pattern.strategyfactrory.model.req;
 
 import com.pattern.strategyfactrory.error.base.ErrorException;
 import lombok.Data;

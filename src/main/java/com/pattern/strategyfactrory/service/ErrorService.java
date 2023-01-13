@@ -1,6 +1,6 @@
 package com.pattern.strategyfactrory.service;
 
-import com.pattern.strategyfactrory.req.ErrorRequest;
+import com.pattern.strategyfactrory.model.req.ErrorRequest;
 
 public interface ErrorService {
 

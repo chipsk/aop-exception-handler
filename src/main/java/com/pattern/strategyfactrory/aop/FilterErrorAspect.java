@@ -1,7 +1,7 @@
 package com.pattern.strategyfactrory.aop;
 
 import com.pattern.strategyfactrory.error.base.ErrorException;
-import com.pattern.strategyfactrory.req.ErrorRequest;
+import com.pattern.strategyfactrory.model.req.ErrorRequest;
 import com.pattern.strategyfactrory.service.ErrorService;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
