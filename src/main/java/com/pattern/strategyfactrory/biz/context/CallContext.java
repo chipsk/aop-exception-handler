@@ -12,7 +12,11 @@ public abstract class CallContext {
 
     private String phone;
 
-    private BizCallStageEnum stage;
+    private BizCallStageEnum stage; //业务call进行阶段
 
     private String callerName;
+
+    private Integer sourceId; //业务方id
+
+    private String businessId; //业务id
 }

@@ -11,4 +11,8 @@ public class ExecuteBizCallRequest {
 
     private String phone;
 
+    private Integer sourceId;
+
+    private String businessId;
+
 }
